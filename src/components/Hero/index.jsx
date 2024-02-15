@@ -1,5 +1,6 @@
+import { ReactTyped } from "react-typed"
 import { HeroDiv } from "./styles"
-import Typical from 'react-typical'
+
 
 
 function Hero() {
@@ -9,19 +10,7 @@ function Hero() {
         <h1>Sejam Bem vindos ao meu mundo</h1>
             <p>
                 Eu sou {''}
-                <Typical className='texto'
-                    loop={Infinity}
-                    steps={[
-                        'Tamara',
-                        500,
-                        'Desenvolvedora Web',
-                        500,
-                        'Front-End',
-                        500,
-                        'Gamer',
-                        500,
-                    ]}
-                />
+                <ReactTyped className="texto" strings={['Desenvolvedora', 'Front-End', 'Gamer', 'Tamara']} typeSpeed={100} loop backSpeed={20} cursorChar="/>" showCursor={true} />
                 </p>
     </HeroDiv>
     </section>
