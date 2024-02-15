@@ -7,6 +7,7 @@ const Tech = () => (
         </S.Titulo>
         <S.Container>
         <S.Languages>
+            
             <i className="devicon-react-original"></i>
             <i className="devicon-redux-original"></i>
             <i className="devicon-bootstrap-plain"></i>
